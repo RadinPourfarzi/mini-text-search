@@ -1,0 +1,23 @@
+# Mini Text Search Utility
+
+A grep-inspired command-line text search program written in C.
+
+The utility searches standard input or one or more files for lines containing a given pattern. It supports dynamically sized input lines, multiple files, case-insensitive search, inverted matching, line numbering, and match counting.
+
+## Features
+
+- Search one or more text files
+- Read input from standard input
+- Dynamically process lines of arbitrary length
+- Case-insensitive search with `-i`
+- Inverted matching with `-v`
+- Line numbers with `-n`
+- Match counts with `-c`
+- Combined options such as `-in` or `-vc`
+- File-specific output when searching multiple files
+- Defensive handling of allocation and file errors
+
+## Usage
+
+```text
+search [options] pattern [file ...]

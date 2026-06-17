@@ -1,0 +1,25 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+
+# Debugging and profiling
+*.pdb
+*.ilk
+*.gcda
+*.gcno
+*.gcov
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Generated test output
+tests/output/
